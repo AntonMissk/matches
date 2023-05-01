@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MatchesGame_API.props" />
+</Project>

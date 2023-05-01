@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FpkNrLoSJIfhz7SmfO61tE3wGbT9aqRr89dRn4kISBo=",
+  "Source": "MatchesGame_API",
+  "BasePath": "_content/MatchesGame_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
