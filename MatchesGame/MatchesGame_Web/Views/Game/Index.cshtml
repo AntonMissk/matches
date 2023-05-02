@@ -1,0 +1,40 @@
+﻿@model MatchesGame_API.Models.Move
+
+<h4>Move</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="moveId" class="control-label"></label>
+                <input asp-for="moveId" class="form-control" />
+                <span asp-validation-for="moveId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="moveValue" class="control-label"></label>
+                <input asp-for="moveValue" class="form-control" />
+                <span asp-validation-for="moveValue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="playerId" class="control-label"></label>
+                <input asp-for="playerId" class="form-control" />
+                <span asp-validation-for="playerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="moveCount" class="control-label"></label>
+                <input asp-for="moveCount" class="form-control" />
+                <span asp-validation-for="moveCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
